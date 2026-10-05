@@ -225,7 +225,7 @@ These questions are slightly different from my previous domain questions. The ma
 - **Description:** In this Sunburst Diagram, Angle and arc length represent the number of vehicles. The inner ring separates modified and non-modified vehicles, while the outer ring shows the year ranges within each group. Here, we can see that the vast majority of cars are unmodified and that less than 1/4th of all cars observed are modified. When we look into the sub-segments of the Yes category, we can easily see that the majority of modified cars range from 2015-2019. However, the smaller year-range segments are difficult to read and compare and the circular layout also makes exact comparisons harder than a visualization using a common axis.
 
 ### Sketch 3
-![Sketch 2](images/sketch2.png)
+![Sketch 1](images/sketch1.png)
 
 - **Question/Task:** How does the age distribution of vehicles differ across locations?
 - **Attributes:** Location, Year Range
@@ -233,7 +233,7 @@ These questions are slightly different from my previous domain questions. The ma
 - **Description:** In the stacked area chart, Horizontal position represents location, vertical height represents the number of vehicles, and separate stacked areas represent the different year ranges. The way to read this graph is that the line inbetween the areas shows the proportion of each car type. For example we can see that from VASA to Aldi's, the '15-'19 slope goes up, meaning there are proportionately more '15-'19 range cars at Aldis than at VASA. Because the year ranges are stacked, categories in the middle are harder to compare across locations since they do not share the same baseline. The visualization can also make small differences difficult to notice, like with Pre-2005 cars and '05-'09 cars.
 
 ### Sketch 4
-![Sketch 1](images/sketch1.png)
+![Sketch 2](images/sketch2.png)
 
 - **Question/Task:** Which makes (brands) are more associated with particular car types?
 - **Attributes:** Make, Car Type
