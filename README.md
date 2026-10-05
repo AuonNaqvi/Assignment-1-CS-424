@@ -209,7 +209,7 @@ These questions are slightly different from my previous domain questions. The ma
 ## Task 5: Visualization Sketches
 
 ### Sketch 1
-![Sketch 1](images/sketch1.png)
+![Sketch 4](images/sketch4.png)
 
 - **Question/Task:** How does the distribution of vehicle class vary across locations?
 - **Attributes:** Location, Vehicle Class
@@ -217,7 +217,7 @@ These questions are slightly different from my previous domain questions. The ma
 - **Description:** In this Treemap there are 3 main rectangles/bins. For context the treemap is broken down as Car Class by Location. The 3 main bins are car class, and within those bins is a visual representation of the proportion of that bin each car has. Rectangle size represents the number of vehicles, while grouping and position separate vehicle classes and locations. The treemap makes it easy to see that economy vehicles make up most of the dataset, and it also makes it pretty clear that we can find a higher proportion of performance cars at VASA than at any of the other locations. Unfortunately, because humans are bad at reading areas, the smaller differences seen in the Luxury and Economy bins are harder to compare because of how similar the size of their rectangles seem. It's also difficult to compare exact values between locations because the rectangles do not share a common axis. 
 
 ### Sketch 2
-![Sketch 2](images/sketch2.png)
+![Sketch 3](images/sketch3.png)
 
 - **Question/Task:** Are modified cars concentrated within certain year ranges?
 - **Attributes:** Modified, Year Range
@@ -225,7 +225,7 @@ These questions are slightly different from my previous domain questions. The ma
 - **Description:** In this Sunburst Diagram, Angle and arc length represent the number of vehicles. The inner ring separates modified and non-modified vehicles, while the outer ring shows the year ranges within each group. Here, we can see that the vast majority of cars are unmodified and that less than 1/4th of all cars observed are modified. When we look into the sub-segments of the Yes category, we can easily see that the majority of modified cars range from 2015-2019. However, the smaller year-range segments are difficult to read and compare and the circular layout also makes exact comparisons harder than a visualization using a common axis.
 
 ### Sketch 3
-![Sketch 3](images/sketch3.png)
+![Sketch 2](images/sketch2.png)
 
 - **Question/Task:** How does the age distribution of vehicles differ across locations?
 - **Attributes:** Location, Year Range
@@ -233,7 +233,7 @@ These questions are slightly different from my previous domain questions. The ma
 - **Description:** In the stacked area chart, Horizontal position represents location, vertical height represents the number of vehicles, and separate stacked areas represent the different year ranges. The way to read this graph is that the line inbetween the areas shows the proportion of each car type. For example we can see that from VASA to Aldi's, the '15-'19 slope goes up, meaning there are proportionately more '15-'19 range cars at Aldis than at VASA. Because the year ranges are stacked, categories in the middle are harder to compare across locations since they do not share the same baseline. The visualization can also make small differences difficult to notice, like with Pre-2005 cars and '05-'09 cars.
 
 ### Sketch 4
-![Sketch 4](images/sketch4.png)
+![Sketch 1](images/sketch1.png)
 
 - **Question/Task:** Which makes (brands) are more associated with particular car types?
 - **Attributes:** Make, Car Type
